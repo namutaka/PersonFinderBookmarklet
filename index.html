@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-  <meta charset='utf-8'>
-
-  <title>namutaka/Google-Crisis-Response-Bookmarklet @ GitHub</title>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Google Crisis Responseボランティアの補助ブックマークレット</title>
 
   <style type="text/css">
     body {
       margin-top: 1.0em;
-      background-color: #6cad96;
+      background-color: #FFFFFF;
       font-family: Helvetica, Arial, FreeSans, san-serif;
       color: #000000;
     }
@@ -16,7 +16,7 @@
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 3.8em; color: #935269; margin-bottom: 3px; }
+    h1 { font-size: 1.3em; color: #935269; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
     h1 a { text-decoration: none }
     h2 { font-size: 1.5em; color: #935269; }
@@ -27,51 +27,45 @@
     pre { background: #000; color: #fff; padding: 15px;}
     hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
     .footer { text-align:center; padding-top:30px; font-style: italic; }
+    ul li {
+      list-style-type:decimal;
+    }
   </style>
 </head>
 
 <body>
-  <a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
   <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-
-    <h1><a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet">Google-Crisis-Response-Bookmarklet</a>
-      <span class="small">by <a href="http://github.com/namutaka">namutaka</a></span></h1>
+    <h1>Google Crisis Responseボランティアの補助ブックマークレット</h1>
 
     <div class="description">
-      http://www.google.co.jp/intl/ja/crisisresponse/japanquake2011_volunteer2.htmlの補助ブックマークレットです
+  <a href="http://www.google.co.jp/intl/ja/crisisresponse/japanquake2011_volunteer.html">
+    東日本巨大地震 - ボランティア
+  </a>でPicasaのコメント欄から、パーソンファインダーの検索画面にリンクを張るブックマークレットです。
     </div>
 
-    <h2>Authors</h2>
-<p>namu (namutaka+g@gmail.com)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>namu (namutaka+g@gmail.com)<br/>      </p>
+
+    使い方は以下の通りです。
+    <ul>
+      <li>下記のリンクをドラッグ＆ドロップでブックマークに追加する。<br/>
+    <a href="javascript:(function(d,u){var e=d.createElement('script');e.setAttribute('language','JavaScript');e.setAttribute('src',u);d.body.appendChild(e);})(document,'http://namutaka.github.com/Google-Crisis-Response-Bookmarklet/pf.js');" >
+      パーソンファインダーにリンク</a>
+      </li>
+      <li>Picasaの名簿写真のページを開き、上記で追加したブックマークレットをクリックする<br/>
+      (名簿写真ページ例）<br>
+      <a target="_blank" href="https://picasaweb.google.com/116505943227607394790/2011_03_17_1440_name_list#5584880685062808034">
+        https://picasaweb.google.com/116505943227607394790/2011_03_17_1440_name_list#5584880685062808034
+        </a>
+      </li>
+      <li>コメント欄の各行がパーソンファインダーへのリンクになります。<br/>
+      「（」と「(」の前までを名前として扱っています。
+      </li>
+    </ul>
 
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet/zipball/master">zip</a> or
-      <a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/namutaka/Google-Crisis-Response-Bookmarklet</pre>
-    </p>
-
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/namutaka/Google-Crisis-Response-Bookmarklet">namutaka/Google-Crisis-Response-Bookmarklet</a>
-    </div>
-
+    連絡先：
+    Twitter <a href="http://twitter.com/namunamu/">@namunamu</a>
   </div>
 
-  
 </body>
 </html>
